@@ -1,13 +1,9 @@
-//
-//  main.swift
-//  algorithms-swift
-//
-//  Created by Eric Pederson on 5/24/15.
-//  Copyright (c) 2015 Sourcedelica. All rights reserved.
-//
-
 import Foundation
 
-
-println("Hello, World!")
+println(Pulverizer().extendedGCD(259, b: 70))
+println(Pulverizer().extendedGCD(70, b: 259))
+println(Pulverizer().extendedGCD(6, b: 3))
+println(Pulverizer().extendedGCD(3, b: 6))
+println(Pulverizer().extendedGCD(0, b: 5))
+println(Pulverizer().extendedGCD(5, b: 0))
 
