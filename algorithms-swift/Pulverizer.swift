@@ -13,7 +13,7 @@ class Pulverizer {
         the greatest common divisor that is output is negative,
         and all the signs of the output must be changed.
     */
-    func extendedGCD(var a: Int, var b: Int) -> (Int, Int, Int) {
+    func extendedGCD(a: Int, b: Int) -> (Int, Int, Int) {
         var s = 0; var old_s = 1
         var t = 1; var old_t = 0
         var r = b; var old_r = a

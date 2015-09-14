@@ -15,3 +15,6 @@ println(P.extendedGCD(3, b: 6))
 println(P.extendedGCD(0, b: 5))
 println(P.extendedGCD(5, b: 0))
 
+let eu = Euclid()
+println(eu.gcd(21, b: 14))
+
